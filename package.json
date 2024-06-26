@@ -1,0 +1,20 @@
+{
+  "name": "codeceptsjs-automate-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "test:headless": "HEADLESS=true npx codeceptjs run --steps",
+    "codeceptjs:ui": "codecept-ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "playwright": "^1.0.0"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.6.4"
+  }
+}
