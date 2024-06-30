@@ -8,12 +8,6 @@ exports.config = {
   tests: './tests/*_test.js',
   output: './output',
   helpers: {
-    REST: {
-      endpoint: 'https://reqres.in/api',
-      defaultHeaders: {
-        'Accept': 'application/json'
-      }
-    },
     Playwright: {
       browser: 'chromium',
       url: 'https://www.saucedemo.com',
@@ -24,6 +18,5 @@ exports.config = {
     I: './steps_file.js'
   },
   bootstrap: null,
-  mocha: {},
   name: 'codeceptsjs-automate-test'
 };

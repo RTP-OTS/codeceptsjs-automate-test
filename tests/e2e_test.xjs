@@ -1,10 +1,10 @@
 Feature('Handle web UI');
 
-const loginPage = require('../../pagesObject/LoginPage');
-const inventoryPage = require('../../pagesObject/InventoryPage');
-const yourInformationPage = require('../../pagesObject/YourInformationPage');
-const checkoutOverviewPage = require('../../pagesObject/CheckoutOverviewPage');
-const checkoutCompletePage = require('../../pagesObject/CheckoutCompletePage');
+const loginPage = require('../pagesObject/LoginPage');
+const inventoryPage = require('../pagesObject/InventoryPage');
+const yourInformationPage = require('../pagesObject/YourInformationPage');
+const checkoutOverviewPage = require('../pagesObject/CheckoutOverviewPage');
+const checkoutCompletePage = require('../pagesObject/CheckoutCompletePage');
 
 Scenario('Handle web UI using CodeceptJS with PageObjects', ({ I }) => {
   // เปิดหน้าเว็บและเข้าสู่ระบบ
